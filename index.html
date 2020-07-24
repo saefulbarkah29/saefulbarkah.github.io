@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Website | Music Video</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body> 	
+<div class="container">
+	<video id="myVideo" class="video" controls="loop">
+ 			<source src="background/anime-background.mp4" type="video/mp4" >
+	</video>
+	<audio id="myMusic">
+	  		<source src="sound/HoneyComeBear-Natsuzora.mp3" type="audio/mpeg">
+	</audio>
+	<div class="source">
+		<marquee>
+		Music - HoneyComeBear-Natsuzora
+	</marquee>
+	</div>
+	<div class="link">
+		<h4>SOURCE CODE | Contact Me ! ----> <a href="http://wa.me/6283822980358">Saeful barkah</a></h4> 
+	</div>
+	<button onclick="playVid()" type="button" class="btn">PLAY</button>
+	<button onclick="pauseVid()" type="button" class="btn-pause">PAUSE</button>
+	
+			<!-- button javascript -->
+				<script> 
+					var vid = document.getElementById("myVideo");
+					var music = document.getElementById("myMusic");
+					vid.loop = true;
+
+						function playVid() { 
+  							vid.play();
+  							alert('Yakin Videonya di Mulai ?')
+ 							 music.play();
+							} 
+
+						function pauseVid() { 
+ 							 vid.pause();
+ 							 alert('VIDEO TELAH DI PAUSE UNTUK MEMULAI VIDEO KLIK PLAY')
+  							music.pause(); 
+						} 
+			</script>
+				</div>
+		</header>
+	</body> 
+</html>

@@ -1,0 +1,68 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.container video {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(76, 175, 80, 0.1);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid cyan;
+  text-align: center;
+}
+
+.container .btn-pause {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid yellow;
+  text-align: center;
+}
+.container .btn:hover {
+  background-color: red;
+  color: blue
+  border: 2px
+}
+.container .btn-pause:hover {
+  background-color: blue;
+  border: none;
+  border: 2px
+}
+.container .source{
+  position: absolute;
+  font-size: 20px;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  border: 2px;
+  background-color: rgba(0,0,0,0.3);
+}
+.container .link {
+  position: absolute;
+}
+
